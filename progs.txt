@@ -1,0 +1,10 @@
+sl
+screen
+virtualbox
+deepin screenshot
+chromium
+subl
+
+
+settings:
+Insults on
