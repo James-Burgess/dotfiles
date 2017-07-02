@@ -8,3 +8,7 @@ subl
 
 settings:
 Insults on
+
+theme:
+vertexmainia dark
+

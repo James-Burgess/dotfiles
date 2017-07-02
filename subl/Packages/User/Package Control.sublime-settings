@@ -1,0 +1,39 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"Auto Semi-Colon",
+		"AutoFileName",
+		"Autoprefixer",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Color Scheme - saulhudson",
+		"CSS Extended Completions",
+		"CSS3",
+		"CSScomb",
+		"CSSLint",
+		"Django",
+		"Django Lookup Snippets",
+		"Django-Rest-Snippets",
+		"DocBlockr",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Github Tools",
+		"HTML5",
+		"JavaScript Completions",
+		"JavaScript Snippets",
+		"Local History",
+		"Package Control",
+		"Python 3",
+		"Python Completions",
+		"Random Everything",
+		"SFTP",
+		"SideBarEnhancements",
+		"Theme - Centurion",
+		"Theme - Soda"
+	]
+}
