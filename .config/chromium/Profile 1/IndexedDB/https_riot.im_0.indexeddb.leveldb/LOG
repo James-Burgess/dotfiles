@@ -1,0 +1,49 @@
+2017/10/09-18:09:41.684 14891 Reusing MANIFEST /home/jimmy_b/.config/chromium/Profile 1/IndexedDB/https_riot.im_0.indexeddb.leveldb/MANIFEST-000001
+2017/10/09-18:20:29.025 14872 Current memtable full; waiting...
+2017/10/09-18:20:29.025 15386 Level-0 table #5: started
+2017/10/09-18:20:29.033 15386 Level-0 table #5: 6601 bytes OK
+2017/10/09-18:20:29.041 15386 Delete type=0 #3
+2017/10/09-18:20:29.041 15386 Level-0 table #7: started
+2017/10/09-18:20:29.041 15386 Level-0 table #7: 0 bytes OK
+2017/10/09-18:20:29.050 15386 Delete type=0 #4
+2017/10/09-18:20:29.050 15386 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2017/10/09-18:20:29.093 14872 Current memtable full; waiting...
+2017/10/09-18:20:29.093 15386 Level-0 table #9: started
+2017/10/09-18:20:29.118 15386 Level-0 table #9: 672 bytes OK
+2017/10/09-18:20:29.134 15386 Delete type=0 #6
+2017/10/09-18:20:29.134 15386 Level-0 table #11: started
+2017/10/09-18:20:29.134 15386 Level-0 table #11: 0 bytes OK
+2017/10/09-18:20:29.193 15386 Delete type=0 #8
+2017/10/09-18:20:29.193 15386 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2017/10/09-18:20:29.193 15386 Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x03\x02\x04\x01\x01\x01\x00-' @ 173 : 0
+2017/10/09-18:20:29.193 15386 Compacting 1@1 + 1@2 files
+2017/10/09-18:20:29.230 15386 Generated table #12@1: 37 keys, 3029 bytes
+2017/10/09-18:20:29.230 15386 Compacted 1@1 + 1@2 files => 3029 bytes
+2017/10/09-18:20:29.246 15386 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/10/09-18:20:29.247 15386 Delete type=2 #5
+2017/10/09-18:20:29.247 15386 Delete type=2 #9
+2017/10/09-18:20:29.247 15386 Manual compaction at level-1 from '\x00\x02\x03\x02\x04\x01\x01\x01\x00-' @ 173 : 0 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2017/10/10-06:24:38.770 15386 Level-0 table #14: started
+2017/10/10-06:24:38.817 15386 Level-0 table #14: 1766367 bytes OK
+2017/10/10-06:24:38.833 15386 Delete type=0 #10
+2017/10/10-11:02:31.376 15386 Level-0 table #16: started
+2017/10/10-11:02:31.431 15386 Level-0 table #16: 1886655 bytes OK
+2017/10/10-11:02:31.439 15386 Delete type=0 #13
+2017/10/10-12:27:45.159 15386 Compacting 1@0 + 1@1 files
+2017/10/10-12:27:45.180 15386 Generated table #17@0: 280 keys, 113018 bytes
+2017/10/10-12:27:45.180 15386 Compacted 1@0 + 1@1 files => 113018 bytes
+2017/10/10-12:27:45.189 15386 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/10/10-12:27:45.190 15386 Delete type=2 #14
+2017/10/10-12:27:45.190 15386 Delete type=2 #16
+2017/10/10-15:12:52.582 15386 Level-0 table #19: started
+2017/10/10-15:12:52.628 15386 Level-0 table #19: 2046936 bytes OK
+2017/10/10-15:12:52.646 15386 Delete type=0 #15
+2017/10/10-19:42:27.474 15386 Compacting 1@0 + 1@1 files
+2017/10/10-19:42:27.511 15386 Generated table #20@0: 394 keys, 128265 bytes
+2017/10/10-19:42:27.511 15386 Compacted 1@0 + 1@1 files => 128265 bytes
+2017/10/10-19:42:27.527 15386 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/10/10-19:42:27.527 15386 Delete type=2 #19
+2017/10/10-19:42:27.528 15386 Delete type=2 #17
+2017/10/10-20:13:54.995 15386 Level-0 table #22: started
+2017/10/10-20:13:55.037 15386 Level-0 table #22: 2118931 bytes OK
+2017/10/10-20:13:55.048 15386 Delete type=0 #18

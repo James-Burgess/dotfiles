@@ -1,0 +1,250 @@
+{
+   "aboutText": {
+      "description": "About",
+      "message": "關於"
+   },
+   "activeModeSwitchText": {
+      "description": "Active Mode",
+      "message": "主動模式"
+   },
+   "activeModeText": {
+      "description": "Enable Active Mode? Delay Before Cleaning:",
+      "message": "要啟用主動模式？在清除前延遲："
+   },
+   "activeModeTooltipText": {
+      "description": "When active mode is enabled, cookie cleanup is triggered on tab close.",
+      "message": "啟用制動模式時，cookie 將會在關閉分頁時清除。"
+   },
+   "addURLText": {
+      "description": "Add URL",
+      "message": "新增域名"
+   },
+   "cancelConfirmText": {
+      "description": "Restored Settings!",
+      "message": "已恢復設定！"
+   },
+   "cancelText": {
+      "description": "Cancel",
+      "message": "取消"
+   },
+   "clearCookiesForDomainText": {
+      "description": "Clear All Cookies For This Domain",
+      "message": "清除此域名的所有 Cookie"
+   },
+   "clearURLText": {
+      "description": "Remove All",
+      "message": "全部移除"
+   },
+   "contextualIdentitiesEnabledText": {
+      "description": "Enable Support for Firefox's Contextual Identities (EXPERIMENTAL Firefox 53+)",
+      "message": "啟用支援 Firefox 背景身份的功能（實驗性，Firefox 53+）"
+   },
+   "contextualIdentitiesTooltipText": {
+      "description": "Do NOT Enable unless you are on Firefox 53+. This will add a different whitelist for EACH containers you use. Your default whitelist is separate from these.",
+      "message": "如您的 Firefox 版本低於 53.0，切勿啟用。此功能在預設白名單外，為每一個身份容器設置白名單。"
+   },
+   "contributorsText": {
+      "description": "Contributors:",
+      "message": "貢獻者："
+   },
+   "cookieCleanUpOnStartText": {
+      "description": "Clean Cookies from Open Tabs on StartUp",
+      "message": "啟動時清除來自已開分頁的 Cookie"
+   },
+   "cookieCleanUpOnStartTooltipText": {
+      "description": "This basically does a Cookie Cleanup (Ignore Open Tabs), meaning all cookies not on the WhiteList are deleted.",
+      "message": "基本上等同「瀏覽器重啟時清除（灰名單）」。所有不在白名單上的 cookie 將會被清除。"
+   },
+   "cookieCleanupIgnoreOpenTabsText": {
+      "description": "Cookie Cleanup (Ignore Open Tabs)",
+      "message": "清除 Cookie（包括已開分頁的 Cookie）"
+   },
+   "cookieCleanupText": {
+      "description": "Cookie Cleanup",
+      "message": "清除 Cookie"
+   },
+   "defaultConfirmText": {
+      "description": "Restored Default Settings!",
+      "message": "已恢復預設設定！"
+   },
+   "defaultSettingsText": {
+      "description": "Restore Default Settings",
+      "message": "恢復預設設定"
+   },
+   "defaultSettingsTooltipText": {
+      "description": "WARNING: This will also clear your WhiteList as well, so make sure you have a backup",
+      "message": "警告：這會清除您的白名單，請先備份！"
+   },
+   "enableGlobalSubdomainText": {
+      "description": "Enable Check for Subdomains",
+      "message": "檢查子域名"
+   },
+   "enableGlobalSubdomainTooltipText": {
+      "description": "When enabled, *.example.com will match example.com. Turning this off gives you more granular control over your lists.",
+      "message": "啟用時 example.com 將匹配 *.example.com。將此選項關閉將讓您更精準地控制您的列表。"
+   },
+   "enterURLTooltipText": {
+      "description": "Enter URLS without the 'www.' part, then press 'Enter' or 'Add URL'. Alternatively go to the site and add it from the icon.",
+      "message": "輸入域名時略去「www.」，然後按輸入鍵或「新增域名」。您也可以前往網站後通過圖示加入。"
+   },
+   "exportURLSText": {
+      "description": "Export WhiteList",
+      "message": "匯出白名單"
+   },
+   "extensionDescription": {
+      "description": "Control Your Cookies! Auto Delete Unused Cookies From your Closed Tabs While Keeping The Ones You Want.",
+      "message": "掌控您的 Cookie！關閉分頁後自動清除沒被使用的 Cookie，同時讓您保留有用的 Cookie。"
+   },
+   "extensionName": {
+      "description": "Name of the extension.",
+      "message": "Cookie AutoDelete"
+   },
+   "greyListWordText": {
+      "description": "GreyList",
+      "message": "灰名單"
+   },
+   "hostWebsiteText": {
+      "description": "Host Website:",
+      "message": "網站："
+   },
+   "hoverButtonTooltipText": {
+      "description": "The GreyList are the cookies that you want to keep until the browser restarts. The WhiteList are the cookies that you want to keep permanently.",
+      "message": "灰名單上的 cookie 會在瀏覽器重啟前保留，而白名單上的 cookie 將永久保留。"
+   },
+   "importURLSText": {
+      "description": "Upload File",
+      "message": "上載檔案"
+   },
+   "minutesText": {
+      "description": "Minute(s)",
+      "message": "分鐘"
+   },
+   "notificationContent": {
+      "description": "123 Deleted Cookies from: google.com, facebook.com",
+      "message": "已清除 $Num$ 個來自下列網站的 cookie：$Websites$",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "123"
+         },
+         "websites": {
+            "content": "$2",
+            "example": "google.com, facebook.com"
+         }
+      }
+   },
+   "notificationTitle": {
+      "description": "Cookie AutoDelete: Cookies were Deleted!",
+      "message": "Cookie AutoDelete: 已清除 Cookie！"
+   },
+   "notifyCookieCleanUpText": {
+      "description": "Show Notification After Cookie CleanUp",
+      "message": "清除 Cookie 後顯示通知"
+   },
+   "notifyCookieCleanUpTooltipText": {
+      "description": "Shows how many cookies were cleaned and for which domain.",
+      "message": "顯示已清除 cookie 的數量及來源域名。"
+   },
+   "releaseNotesText": {
+      "description": "Release Notes",
+      "message": "版本資訊"
+   },
+   "reportIssuesText": {
+      "description": "Report issues and suggest features",
+      "message": "彙報問題及建議新功能"
+   },
+   "resetCounterConfirmText": {
+      "description": "Cleared Counter!",
+      "message": "已清除記錄！"
+   },
+   "resetCounterText": {
+      "description": "Reset Counter",
+      "message": "清除記錄"
+   },
+   "reviewLinkMessage": {
+      "description": "Thanks for trying out Cookie AutoDelete. If you liked it, then please give a Review.",
+      "message": "感謝您使用 Cookie AutoDelete。如果您喜歡此擴充套件，請給我們寫一篇評論。"
+   },
+   "rightClickToSave": {
+      "description": "Right Click to Save Link As",
+      "message": "右擊以另存鏈結為"
+   },
+   "saveConfirmText": {
+      "description": "Saved!",
+      "message": "已儲存！"
+   },
+   "saveText": {
+      "description": "Save",
+      "message": "儲存"
+   },
+   "settingsText": {
+      "description": "Cookie Settings",
+      "message": "Cookie 設定"
+   },
+   "showNumberOfCookiesInIconText": {
+      "description": "Show Number of Cookies for that Domain",
+      "message": "顯示該域名的 Cookie 數量"
+   },
+   "showNumberOfCookiesInIconTooltipText": {
+      "description": "Shows which cookies can be detected in the popup badge.",
+      "message": "在彈出視窗的圖示上顯示被偵測到的 cookie。"
+   },
+   "statLoggingText": {
+      "description": "Log Total Number Of Cookies Deleted",
+      "message": "記錄已清除 Cookie 的總數"
+   },
+   "statLoggingTooltipText": {
+      "description": "Counts the number of cookies deleted during this session and in total. This is shown in the Welcome Screen.",
+      "message": "記錄在對談期間清除的 cookie 及已清除的 cookie 的總數，並在歡迎畫面顯示此數據。"
+   },
+   "switchToGreyListText": {
+      "description": "Clean on Browser Restart (GreyList)",
+      "message": "瀏覽器重啟時清除（灰名單）"
+   },
+   "switchToNoListText": {
+      "description": "Clean After Tab Close",
+      "message": "關閉分頁後清除"
+   },
+   "switchToWhiteListText": {
+      "description": "Never Clean (WhiteList)",
+      "message": "從不清除（白名單）"
+   },
+   "toGreyListText": {
+      "description": "To GreyList",
+      "message": "增至灰名單"
+   },
+   "toWhiteListText": {
+      "description": "To WhiteList",
+      "message": "增至白名單"
+   },
+   "versionText": {
+      "description": "version",
+      "message": "版本"
+   },
+   "welcomeMessage": {
+      "description": "Hi there! During this session, Cookie AutoDelete has deleted 123 cookies and in total 456 cookies.",
+      "message": "您好！Cookie AutoDelete 在此對談期間已清除 $sessionDeleted$ 個 cookie，累計清除了 $totalDeleted$ 個 cookie。",
+      "placeholders": {
+         "sessionDeleted": {
+            "content": "$1",
+            "example": "123"
+         },
+         "totalDeleted": {
+            "content": "$2",
+            "example": "456"
+         }
+      }
+   },
+   "welcomeText": {
+      "description": "Welcome",
+      "message": "歡迎使用"
+   },
+   "whiteListText": {
+      "description": "Cookie WhiteList",
+      "message": "Cookie 白名單"
+   },
+   "whiteListWordText": {
+      "description": "WhiteList",
+      "message": "白名單"
+   }
+}

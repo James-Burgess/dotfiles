@@ -1,0 +1,250 @@
+{
+   "aboutText": {
+      "description": "About",
+      "message": "Om"
+   },
+   "activeModeSwitchText": {
+      "description": "Active Mode",
+      "message": "Aktivt läge"
+   },
+   "activeModeText": {
+      "description": "Enable Active Mode? Delay Before Cleaning:",
+      "message": "Starta aktivt läge? Fördröjning före borttagning:"
+   },
+   "activeModeTooltipText": {
+      "description": "When active mode is enabled, cookie cleanup is triggered on tab close.",
+      "message": "När aktivt läge körs, triggas cookie-borttagningen av flikstängning."
+   },
+   "addURLText": {
+      "description": "Add URL",
+      "message": "Lägg till URL"
+   },
+   "cancelConfirmText": {
+      "description": "Restored Settings!",
+      "message": "Återställde inställningarna!"
+   },
+   "cancelText": {
+      "description": "Cancel",
+      "message": "Avbryt"
+   },
+   "clearCookiesForDomainText": {
+      "description": "Clear All Cookies For This Domain",
+      "message": "Ta bort alla cookies för denna domän"
+   },
+   "clearURLText": {
+      "description": "Remove All",
+      "message": "Ta bort alla"
+   },
+   "contextualIdentitiesEnabledText": {
+      "description": "Enable Support for Firefox's Contextual Identities (EXPERIMENTAL Firefox 53+)",
+      "message": "Aktivera stöd för Firefoxs kontextuella identiteter (EXPERIMENTELL Firefox 53+)"
+   },
+   "contextualIdentitiesTooltipText": {
+      "description": "Do NOT Enable unless you are on Firefox 53+. This will add a different whitelist for EACH containers you use. Your default whitelist is separate from these.",
+      "message": "Aktivera INTE, om du inte kör Firefox 53+. Detta kommer att lägga till en annan vitlista för VARJE behållare som du använder. Din standardvitlista är separerad från dessa."
+   },
+   "contributorsText": {
+      "description": "Contributors:",
+      "message": "Medhjälpare:"
+   },
+   "cookieCleanUpOnStartText": {
+      "description": "Clean Cookies from Open Tabs on StartUp",
+      "message": "Ta bort cookies från öppna flikar vid uppstart"
+   },
+   "cookieCleanUpOnStartTooltipText": {
+      "description": "This basically does a Cookie Cleanup (Ignore Open Tabs), meaning all cookies not on the WhiteList are deleted.",
+      "message": "Detta utför en cookie-rensning (utom för öppna flikar), vilket innebär att alla cookies som inte finns i vitlistan, tas bort."
+   },
+   "cookieCleanupIgnoreOpenTabsText": {
+      "description": "Cookie Cleanup (Ignore Open Tabs)",
+      "message": "Ta bort cookies (utom öppna flikar)"
+   },
+   "cookieCleanupText": {
+      "description": "Cookie Cleanup",
+      "message": "Ta bort cookies"
+   },
+   "defaultConfirmText": {
+      "description": "Restored Default Settings!",
+      "message": "Återställde standardinställningarna!"
+   },
+   "defaultSettingsText": {
+      "description": "Restore Default Settings",
+      "message": "Återställ standardinställningar"
+   },
+   "defaultSettingsTooltipText": {
+      "description": "WARNING: This will also clear your WhiteList as well, so make sure you have a backup",
+      "message": "VARNING! Detta rensar också vitlistan, så gör en säkerhetskopia!"
+   },
+   "enableGlobalSubdomainText": {
+      "description": "Enable Check for Subdomains",
+      "message": "Aktivera kontroll av underdomäner"
+   },
+   "enableGlobalSubdomainTooltipText": {
+      "description": "When enabled, *.example.com will match example.com. Turning this off gives you more granular control over your lists.",
+      "message": "Vid aktivering kommer *.example.com att matcha example.com. Inaktivering ger dig mer detaljerad kontroll över dina listor."
+   },
+   "enterURLTooltipText": {
+      "description": "Enter URLS without the 'www.' part, then press 'Enter' or 'Add URL'. Alternatively go to the site and add it from the icon.",
+      "message": "Ange URL:er utan www. och tryck 'Enter' eller 'Lägg till URL'. Alternativt, gå till sidan och lägg till den från verktygsikonen."
+   },
+   "exportURLSText": {
+      "description": "Export WhiteList",
+      "message": "Exportera vitlistan"
+   },
+   "extensionDescription": {
+      "description": "Control Your Cookies! Auto Delete Unused Cookies From your Closed Tabs While Keeping The Ones You Want.",
+      "message": "Kontrollera dina cookies! Ta automatiskt bort oanvända cookies efter stängda flikar, samtidigt som du bevarar de du vill ha kvar."
+   },
+   "extensionName": {
+      "description": "Name of the extension.",
+      "message": "Cookie AutoDelete"
+   },
+   "greyListWordText": {
+      "description": "GreyList",
+      "message": "Grålista"
+   },
+   "hostWebsiteText": {
+      "description": "Host Website:",
+      "message": "Webbsida:"
+   },
+   "hoverButtonTooltipText": {
+      "description": "The GreyList are the cookies that you want to keep until the browser restarts. The WhiteList are the cookies that you want to keep permanently.",
+      "message": "Grålistan är de cookies du vill bevara tills webbläsaren startas om. Vitlistan är de cookies du vill spara permanent."
+   },
+   "importURLSText": {
+      "description": "Upload File",
+      "message": "Läs in från fil"
+   },
+   "minutesText": {
+      "description": "Minute(s)",
+      "message": "minut(er)"
+   },
+   "notificationContent": {
+      "description": "123 Deleted Cookies from: google.com, facebook.com",
+      "message": "$Num$ borttagna cookies från: $Websites$",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "123"
+         },
+         "websites": {
+            "content": "$2",
+            "example": "google.com, facebook.com"
+         }
+      }
+   },
+   "notificationTitle": {
+      "description": "Cookie AutoDelete: Cookies were Deleted!",
+      "message": "Cookie AutoDelete: Cookies har tagits bort!"
+   },
+   "notifyCookieCleanUpText": {
+      "description": "Show Notification After Cookie CleanUp",
+      "message": "Visa avisering efter cookie-borttagning"
+   },
+   "notifyCookieCleanUpTooltipText": {
+      "description": "Shows how many cookies were cleaned and for which domain.",
+      "message": "Visar hur många cookies som tagits bort och för vilken domän."
+   },
+   "releaseNotesText": {
+      "description": "Release Notes",
+      "message": "Versionsinformation"
+   },
+   "reportIssuesText": {
+      "description": "Report issues and suggest features",
+      "message": "Rapportera problem och föreslå programfunktioner"
+   },
+   "resetCounterConfirmText": {
+      "description": "Cleared Counter!",
+      "message": "Nollställde räknaren!"
+   },
+   "resetCounterText": {
+      "description": "Reset Counter",
+      "message": "Nollställ räknaren"
+   },
+   "reviewLinkMessage": {
+      "description": "Thanks for trying out Cookie AutoDelete. If you liked it, then please give a Review.",
+      "message": "Tack för att du provar Cookie AutoDelete. Om du gillar det, kanske du vill lämna en recension."
+   },
+   "rightClickToSave": {
+      "description": "Right Click to Save Link As",
+      "message": "Högerklicka för att 'Spara som'"
+   },
+   "saveConfirmText": {
+      "description": "Saved!",
+      "message": "Sparat!"
+   },
+   "saveText": {
+      "description": "Save",
+      "message": "Spara"
+   },
+   "settingsText": {
+      "description": "Cookie Settings",
+      "message": "Inställningar"
+   },
+   "showNumberOfCookiesInIconText": {
+      "description": "Show Number of Cookies for that Domain",
+      "message": "Visa antal cookies för domänen"
+   },
+   "showNumberOfCookiesInIconTooltipText": {
+      "description": "Shows which cookies can be detected in the popup badge.",
+      "message": "Visar i verktygsikonen, hur många cookies som identifierats."
+   },
+   "statLoggingText": {
+      "description": "Log Total Number Of Cookies Deleted",
+      "message": "Logga det sammanlagda antalet borttagna cookies"
+   },
+   "statLoggingTooltipText": {
+      "description": "Counts the number of cookies deleted during this session and in total. This is shown in the Welcome Screen.",
+      "message": "Räknar antalet borttagna cookies under sessionen och sammanlagt. Detta visas i välkomstfönstret."
+   },
+   "switchToGreyListText": {
+      "description": "Clean on Browser Restart (GreyList)",
+      "message": "Ta bort när webbläsaren startas om (Grålista)"
+   },
+   "switchToNoListText": {
+      "description": "Clean After Tab Close",
+      "message": "Ta bort efter flikstängning"
+   },
+   "switchToWhiteListText": {
+      "description": "Never Clean (WhiteList)",
+      "message": "Ta aldrig bort (Vitlista)"
+   },
+   "toGreyListText": {
+      "description": "To GreyList",
+      "message": "Till grålistan"
+   },
+   "toWhiteListText": {
+      "description": "To WhiteList",
+      "message": "Till vitlistan"
+   },
+   "versionText": {
+      "description": "version",
+      "message": "version"
+   },
+   "welcomeMessage": {
+      "description": "Hi there! During this session, Cookie AutoDelete has deleted 123 cookies and in total 456 cookies.",
+      "message": "Hej! Under den här sessionen har Cookie AutoDelete tagit bort $sessionDeleted$ av sammanlagt $totalDeleted$ cookies.",
+      "placeholders": {
+         "sessionDeleted": {
+            "content": "$1",
+            "example": "123"
+         },
+         "totalDeleted": {
+            "content": "$2",
+            "example": "456"
+         }
+      }
+   },
+   "welcomeText": {
+      "description": "Welcome",
+      "message": "Välkommen"
+   },
+   "whiteListText": {
+      "description": "Cookie WhiteList",
+      "message": "Vitlista"
+   },
+   "whiteListWordText": {
+      "description": "WhiteList",
+      "message": "Vitlista"
+   }
+}

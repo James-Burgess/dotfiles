@@ -1,0 +1,35 @@
+{
+   "author": "Edward Grech",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "contentscript.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Protect your privacy. Prevent webpages from tracking you by your browser's HTML canvas fingerprint.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoe9GCXVyQEunMaytXK8jTo6LSyNx1nJdWOHYbGJunnbFyIiJInyGTfpHTZsJxlbJeKoUDQdSqfbDYet9j2eMFJUFb7ULOXZd8JL1f5binZEk1deZyqTXYsPnQeEVWNG1BeitbDRCk+YM10OjDY7stcV1tQppqX4jGZAVOIn/rHlXBTfNRD6l+zuY/Sg53WdFiCaPeVvQHCISFbud/jYMlUP/BW9Ne6U0gYfKlgx7uh08XCCTT4cNdlW9T/PhyTvG/MtjlEZgBpu//MfGaxUVOnYj+lvbQZ+hk+HxJY5crtQPc6q6g0+RLWqJ0ZQPRG9tLphxQxVEyvD7yPDde6AsdwIDAQAB",
+   "manifest_version": 2,
+   "name": "CanvasFingerprintBlock",
+   "page_action": {
+      "default_icon": {
+         "19": "icon-19.png",
+         "38": "icon-38.png"
+      }
+   },
+   "permissions": [  ],
+   "sandbox": {
+
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5"
+}

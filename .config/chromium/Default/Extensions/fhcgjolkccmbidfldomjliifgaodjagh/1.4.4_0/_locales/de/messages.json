@@ -1,0 +1,250 @@
+{
+   "aboutText": {
+      "description": "About",
+      "message": "Über"
+   },
+   "activeModeSwitchText": {
+      "description": "Active Mode",
+      "message": "Aktiver Modus"
+   },
+   "activeModeText": {
+      "description": "Enable Active Mode? Delay Before Cleaning:",
+      "message": "Aktiven Modus einschalten? Verzögerung bis zum Aufräumen:"
+   },
+   "activeModeTooltipText": {
+      "description": "When active mode is enabled, cookie cleanup is triggered on tab close.",
+      "message": "Wenn der aktive Modus eingeschaltet ist, wird das Aufräumen der Cookies beim Schließen eines Tabs ausgeführt."
+   },
+   "addURLText": {
+      "description": "Add URL",
+      "message": "URL hinzufügen"
+   },
+   "cancelConfirmText": {
+      "description": "Restored Settings!",
+      "message": "Einstellungen wiederhergestellt!"
+   },
+   "cancelText": {
+      "description": "Cancel",
+      "message": "Abbrechen"
+   },
+   "clearCookiesForDomainText": {
+      "description": "Clear All Cookies For This Domain",
+      "message": "Alle Cookies dieser Domain löschen"
+   },
+   "clearURLText": {
+      "description": "Remove All",
+      "message": "Alle löschen"
+   },
+   "contextualIdentitiesEnabledText": {
+      "description": "Enable Support for Firefox's Contextual Identities (EXPERIMENTAL Firefox 53+)",
+      "message": "Aktiviert die Unterstützung für Firefox' \"Contextual Identities\" (EXPERIMENTELL Firefox 53+)"
+   },
+   "contextualIdentitiesTooltipText": {
+      "description": "Do NOT Enable unless you are on Firefox 53+. This will add a different whitelist for EACH containers you use. Your default whitelist is separate from these.",
+      "message": "NICHT aktivieren solange du nicht Firefox 53+ nutzt. Fügt eine WhiteList für JEDEN Container hinzu, den du nutzt. Die Standard-WhiteList bleibt davon unabhängig."
+   },
+   "contributorsText": {
+      "description": "Contributors:",
+      "message": "Mitwirkende:"
+   },
+   "cookieCleanUpOnStartText": {
+      "description": "Clean Cookies from Open Tabs on StartUp",
+      "message": "Cookies von offenen Tabs beim Start aufräumen"
+   },
+   "cookieCleanUpOnStartTooltipText": {
+      "description": "This basically does a Cookie Cleanup (Ignore Open Tabs), meaning all cookies not on the WhiteList are deleted.",
+      "message": "Im Grunde führt dies die Funktion \"Cookies aufräumen (offene Tabs ignorieren)\" aus, löscht also alle Cookies die nicht zur WhiteList passen."
+   },
+   "cookieCleanupIgnoreOpenTabsText": {
+      "description": "Cookie Cleanup (Ignore Open Tabs)",
+      "message": "Cookies aufräumen (offene Tabs ignorieren)"
+   },
+   "cookieCleanupText": {
+      "description": "Cookie Cleanup",
+      "message": "Cookies aufräumen"
+   },
+   "defaultConfirmText": {
+      "description": "Restored Default Settings!",
+      "message": "Einstellungen auf Standard zurückgesetzt!"
+   },
+   "defaultSettingsText": {
+      "description": "Restore Default Settings",
+      "message": "Standardeinstellungen wiederherstellen"
+   },
+   "defaultSettingsTooltipText": {
+      "description": "WARNING: This will also clear your WhiteList as well, so make sure you have a backup",
+      "message": "WARNUNG: Diese Aktion wird auch deine WhiteList zurücksetzen. Erstelle eine Sicherung!"
+   },
+   "enableGlobalSubdomainText": {
+      "description": "Enable Check for Subdomains",
+      "message": "Subdomain-Prüfung aktivieren"
+   },
+   "enableGlobalSubdomainTooltipText": {
+      "description": "When enabled, *.example.com will match example.com. Turning this off gives you more granular control over your lists.",
+      "message": "Wenn diese Funktion aktiviert ist, werden Cookies von Subdomains (*.example.com) nicht gelöscht, wenn die Top-Level-Domain (example.com) auf der WhiteList ist."
+   },
+   "enterURLTooltipText": {
+      "description": "Enter URLS without the 'www.' part, then press 'Enter' or 'Add URL'. Alternatively go to the site and add it from the icon.",
+      "message": "Trage URLs ohne 'www.' ein, drücke dann die Eingabetaste oder klicke auf 'URL hinzufügen'. Alternativ besuche die Seite und füge sie vom Symbol aus hinzu."
+   },
+   "exportURLSText": {
+      "description": "Export WhiteList",
+      "message": "WhiteList exportieren"
+   },
+   "extensionDescription": {
+      "description": "Control Your Cookies! Auto Delete Unused Cookies From your Closed Tabs While Keeping The Ones You Want.",
+      "message": "Beherrsche deine Cookies! Lasse unbenutzte Cookies deiner geschlossenen Tabs automatisch löschen."
+   },
+   "extensionName": {
+      "description": "Name of the extension.",
+      "message": "Cookie AutoDelete"
+   },
+   "greyListWordText": {
+      "description": "GreyList",
+      "message": "GreyList"
+   },
+   "hostWebsiteText": {
+      "description": "Host Website:",
+      "message": "Webseite:"
+   },
+   "hoverButtonTooltipText": {
+      "description": "The GreyList are the cookies that you want to keep until the browser restarts. The WhiteList are the cookies that you want to keep permanently.",
+      "message": "Die GreyList betrifft Cookies, die zum Browser-Neustart gelöscht werden. Die WhiteList betrifft Cookies, die niemals gelöscht werden."
+   },
+   "importURLSText": {
+      "description": "Upload File",
+      "message": "Datei hochladen"
+   },
+   "minutesText": {
+      "description": "Minute(s)",
+      "message": "Minute(n)"
+   },
+   "notificationContent": {
+      "description": "123 Deleted Cookies from: google.com, facebook.com",
+      "message": "$Num$ Cookies gelöscht von: $Websites$",
+      "placeholders": {
+         "num": {
+            "content": "$1",
+            "example": "123"
+         },
+         "websites": {
+            "content": "$2",
+            "example": "google.com, facebook.com"
+         }
+      }
+   },
+   "notificationTitle": {
+      "description": "Cookie AutoDelete: Cookies were Deleted!",
+      "message": "Cookie AutoDelete: Cookies wurden gelöscht!"
+   },
+   "notifyCookieCleanUpText": {
+      "description": "Show Notification After Cookie CleanUp",
+      "message": "Zeigt eine Benachrichtigung nach dem Aufräumen der Cookies"
+   },
+   "notifyCookieCleanUpTooltipText": {
+      "description": "Shows how many cookies were cleaned and for which domain.",
+      "message": "Zeigt wie viele Cookies für welche Domains gelöscht wurden."
+   },
+   "releaseNotesText": {
+      "description": "Release Notes",
+      "message": "Versionshinweise"
+   },
+   "reportIssuesText": {
+      "description": "Report issues and suggest features",
+      "message": "Melde Fehler und schlage neue Funktionen vor"
+   },
+   "resetCounterConfirmText": {
+      "description": "Cleared Counter!",
+      "message": "Zähler zurückgesetzt!"
+   },
+   "resetCounterText": {
+      "description": "Reset Counter",
+      "message": "Zähler zurücksetzen"
+   },
+   "reviewLinkMessage": {
+      "description": "Thanks for trying out Cookie AutoDelete. If you liked it, then please give a Review.",
+      "message": "Danke für das Ausprobieren von Cookie AutoDelete. Falls es dir gefällt, gib bitte eine Bewertung ab."
+   },
+   "rightClickToSave": {
+      "description": "Right Click to Save Link As",
+      "message": "Klicke mit der rechten Maustaste auf diesen Link und wähle \"Ziel speichern unter...\""
+   },
+   "saveConfirmText": {
+      "description": "Saved!",
+      "message": "Gespeichert!"
+   },
+   "saveText": {
+      "description": "Save",
+      "message": "Speichern"
+   },
+   "settingsText": {
+      "description": "Cookie Settings",
+      "message": "Cookie-Einstellungen"
+   },
+   "showNumberOfCookiesInIconText": {
+      "description": "Show Number of Cookies for that Domain",
+      "message": "Zeigt die Anzahl der Cookies einer Domain in der Symbolleiste"
+   },
+   "showNumberOfCookiesInIconTooltipText": {
+      "description": "Shows which cookies can be detected in the popup badge.",
+      "message": "Zeigt die Anzahl der erkannten Cookies im Symbol in der Symbolleiste"
+   },
+   "statLoggingText": {
+      "description": "Log Total Number Of Cookies Deleted",
+      "message": "Gesamtanzahl gelöschter Cookies protokollieren"
+   },
+   "statLoggingTooltipText": {
+      "description": "Counts the number of cookies deleted during this session and in total. This is shown in the Welcome Screen.",
+      "message": "Zählt die Anzahl der gelöschten Cookies, wird im Willkommensbildschirm angezeigt."
+   },
+   "switchToGreyListText": {
+      "description": "Clean on Browser Restart (GreyList)",
+      "message": "Bei Browser-Neustart aufräumen (GreyList)"
+   },
+   "switchToNoListText": {
+      "description": "Clean After Tab Close",
+      "message": "Nach dem Schließen eines Tabs aufräumen"
+   },
+   "switchToWhiteListText": {
+      "description": "Never Clean (WhiteList)",
+      "message": "Niemals aufräumen (WhiteList)"
+   },
+   "toGreyListText": {
+      "description": "To GreyList",
+      "message": "Zur GreyList"
+   },
+   "toWhiteListText": {
+      "description": "To WhiteList",
+      "message": "Zur WhiteList"
+   },
+   "versionText": {
+      "description": "version",
+      "message": "Version"
+   },
+   "welcomeMessage": {
+      "description": "Hi there! During this session, Cookie AutoDelete has deleted 123 cookies and in total 456 cookies.",
+      "message": "Cookie AutoDelete hat während dieser Sitzung $sessionDeleted$ und insgesamt $totalDeleted$ Cookies gelöscht.",
+      "placeholders": {
+         "sessionDeleted": {
+            "content": "$1",
+            "example": "123"
+         },
+         "totalDeleted": {
+            "content": "$2",
+            "example": "456"
+         }
+      }
+   },
+   "welcomeText": {
+      "description": "Welcome",
+      "message": "Willkommen"
+   },
+   "whiteListText": {
+      "description": "Cookie WhiteList",
+      "message": "Cookie-WhiteList"
+   },
+   "whiteListWordText": {
+      "description": "WhiteList",
+      "message": "WhiteList"
+   }
+}

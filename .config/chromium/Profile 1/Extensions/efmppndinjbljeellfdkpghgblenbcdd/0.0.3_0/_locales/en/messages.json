@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Character counter for helping to optimize line length (measure) between 45 and 75 characters."
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "45to75"
+   }
+}

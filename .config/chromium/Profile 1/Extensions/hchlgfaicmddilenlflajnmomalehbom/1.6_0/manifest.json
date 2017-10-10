@@ -1,0 +1,17 @@
+{
+   "background": {
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png"
+   },
+   "chrome_url_overrides": {
+      "newtab": "popup.html"
+   },
+   "description": "A Beautiful Color Palette With Every New Tab!",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgqinWfHdG7E5Q3blLbkOcgi4ZdvOmx/I6Z7mLFkw7h4LV2ybm7c8Uj3Gaa3+hWlwYkwQYzWFuA9Bd7xXeNs9h3FKVFcDbieBjvQhnjrr5x3Apm/xNl28O+oyPJu8X+NjonPIIT2vRmmkZvkZulKCE4KVFAe7tQBsAprBBhQ3xUhgdvh1kZWIEmK1LimDSLOTEatPXMKNJOvJJM0qvm9/HsClZuxGqgkcYsBtQpiLJdnl1vJQjy3JdmJdOCYP8Ky96O54iNQqWVkD+GfV4xKMKpsidvRLe/+7tgPe9EzxnoQnZSb5o5qsFtwICh31Dze4wsuoCrxHuOLv2g9mjgqnDQIDAQAB",
+   "manifest_version": 2,
+   "name": "Color Tab",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}

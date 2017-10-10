@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon-off.png",
+      "default_title": "GA Debug: OFF"
+   },
+   "description": "Prints useful information to the JavaScript console by enabling the debug version of the Google Analytics Javascript.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2P6gdYEAHJOQore5s5G33Zq6LZMSnVg58jlsbFnrAqPYNCWe1jLMwfqMyrn+yYtU/Eegxt2tpV4zly2a3G4ebVBixXggb1rKVpKrxgnZKB+1NN7yXEPUpRDxrhL2fYLtsidbFrlaXFQsc6eL/PMgGJ/yHdjQIll6IbqjViVRVGQIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Analytics Debugger",
+   "permissions": [ "http://*/*", "https://*/*", "webRequest", "webRequestBlocking", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.6"
+}
