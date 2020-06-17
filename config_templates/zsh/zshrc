@@ -1,0 +1,135 @@
+
+export ZSH="/home/jimmy/.oh-my-zsh"
+export DEFAULT_USER="jimmy"
+export TERM="xterm-256color"
+export ZSH=/usr/share/oh-my-zsh
+
+ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_MODE="nerdfont-complete"
+source $ZSH/themes/powerlevel9k/powerlevel9k.zsh-theme
+
+POWERLEVEL9K_FOLDER_ICON=""
+POWERLEVEL9K_HOME_SUB_ICON="$(print_icon "HOME_ICON")"
+POWERLEVEL9K_DIR_PATH_SEPARATOR=" $(print_icon "LEFT_SUBSEGMENT_SEPARATOR") "
+
+POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=0
+
+POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER=true
+
+POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND='black'
+POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND='178'
+POWERLEVEL9K_NVM_BACKGROUND="238"
+POWERLEVEL9K_NVM_FOREGROUND="green"
+POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="blue"
+POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_FOREGROUND="015"
+
+POWERLEVEL9K_TIME_BACKGROUND='255'
+#POWERLEVEL9K_COMMAND_TIME_FOREGROUND='gray'
+POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND='245'
+POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='black'
+
+POWERLEVEL9K_TIME_FORMAT="%D{%H:%M}"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator context dir dir_writable vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs command_execution_time time)
+POWERLEVEL9K_SHOW_CHANGESET=true
+
+HYPHEN_INSENSITIVE="true"
+COMPLETION_WAITING_DOTS="true"
+
+# /!\ do not use with zsh-autosuggestions
+plugins=(archlinux
+	asdf
+	bundler
+	docker
+	jsontools
+	vscode
+	web-search
+	k
+	tig
+	gitfast
+	colored-man-pages
+	colorize
+	command-not-found
+	cp
+	dirhistory
+	autojump
+	sudo
+	zsh-syntax-highlighting
+	)
+
+
+DISABLE_AUTO_UPDATE="true"
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+typeset -gA ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[cursor]='bold'
+
+ZSH_HIGHLIGHT_STYLES[alias]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[builtin]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[function]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[command]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[precommand]='fg=green,bold'
+ZSH_HIGHLIGHT_STYLES[hashed-command]='fg=green,bold'
+
+# User configuration
+
+# aliases
+alias sudo ='sudo'
+alias fucking='sudo '
+alias gcsm='git commit -s -m'
+alias poes='git push'
+alias gs='git status'
+alias ga='git add'
+alias gca='git commit ammend'
+alias be='bundle exec'
+alias br='be rails'
+alias pipeline='git log --pretty=oneline --graph --decorate --all'
+alias af-ui='kubectl port-forward airflow-ui-and-scheduler 8888:8080'
+alias branch-del='git branch --merged | grep -v \* | xargs git branch -D'
+eval $(thefuck --alias)
+
+# magic functions
+cd() { builtin cd "$@" && ls; }
+
+
+function _my_clear() {
+	echo
+	rule
+	zle clear-screen
+}
+zle -N _my_clear
+bindkey '^l' _my_clear
+
+# Ctrl-O opens zsh at the current location, and on exit, cd into ranger's last location.
+ranger-cd() {
+	tempfile=$(mktemp)
+	ranger --choosedir="$tempfile" "${@:-$(pwd)}" < $TTY
+	test -f "$tempfile" &&
+	if [ "$(cat -- "$tempfile")" != "$(echo -n `pwd`)" ]; then
+	cd -- "$(cat "$tempfile")"
+	fi
+	rm -f -- "$tempfile"
+	# hacky way of transferring over previous command and updating the screen
+	VISUAL=true zle edit-command-line
+}
+zle -N ranger-cd
+bindkey '^o' ranger-cd
+
+
+#setup jump
+[[ -s /home/jimmy/.autojump/etc/profile.d/autojump.sh ]] && source /home/jimmy/.autojump/etc/profile.d/autojump.sh
+autoload -U compinit && compinit -u
+
+####################
+## path variables ##
+####################
+
+#[ -f /Users/jimmy/.travis/travis.sh ] && source /Users/jimmy/.travis/travis.sh
+
+# Add RVM to PATH for scripting.
+# Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+[[ -s /home/jimmy/.rvm/scripts/rvm ]] && source /home/jimmy/.rvm/scripts/rvm
+
+# Weclome Message
+screenfetch;
