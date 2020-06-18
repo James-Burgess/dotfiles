@@ -3,7 +3,6 @@ import keyboard
 import time
 
 
-
 def show_break_screen():
     sg.theme('black')
     layout = [

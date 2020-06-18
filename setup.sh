@@ -10,12 +10,17 @@ echo $os detected, setting up
 
 
 echo Updating system!
-sudo pacman -Syyu -y 
+sudo pacman -Syyu -y
 
 echo Installing yay
 sudo pacman -Sy yay git lolcat cowsay -y
 
-
+yay -S screenfetch \
+       feh \
+       flameshot \
+       google-chrome-unstable \
+       atom \
+       pycharm-community 
 
 
 
