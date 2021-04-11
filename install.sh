@@ -23,12 +23,30 @@ yay -S i3lock-fancy-git \
        screenfetch \
        feh \
        flameshot \
-       
+       udiskie \
+       libinput-gestures \
+       wmctrl \
+       xdotool \
+       ulauncher \
+       blueman \
+       xfce4-power-manager \
+       udiskie \
+       deepin-screenshot \
+       polybar \
+       caffine \
+       redshift
 
 
 echo installing languages
 yay -S go \
-       npm \
-       
-        
+       npm
 
+
+echo installing editors
+       atom \
+       pycharm-community
+
+
+echo installing apps
+yay -S chromium \
+       firefox \
