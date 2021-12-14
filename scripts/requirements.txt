@@ -1,3 +1,7 @@
 i3ipc
 PySimpleGUI
 keyboard
+kivy
+tk
+plyer
+
