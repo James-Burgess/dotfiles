@@ -9,15 +9,6 @@ echo pulling dotfiles
 git clone https://github.com/James-Burgess/dotfiles.git
 cd dotfiles
 
-
-echo enabling spans
-sudo pacman -S snapd
-sudo systemctl enable --now snapd.socket
-sudo ln -s /var/lib/snapd/snap /snap
-
-echo grabbing themes
-sudo snap install gtk-common-themes
-
 echo installing deps
 yay -S i3lock-fancy-git \
        screenfetch \
@@ -49,4 +40,4 @@ echo installing editors
 
 echo installing apps
 yay -S chromium \
-       firefox \
+       firefox
