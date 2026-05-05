@@ -1,3 +1,6 @@
+# Env vars — sourced for every shell invocation
+export EDITOR='nvim'
+export VISUAL='nvim'
 export GOPATH="$HOME/go"
 export CARGO_HOME="$HOME/.cargo"
 export NVM_DIR="$HOME/.nvm"
@@ -11,13 +14,3 @@ type node &>/dev/null && export PATH="$(dirname $(which node)):$PATH"
 
 . "$HOME/.cargo/env" 2>/dev/null
 . "$HOME/.atuin/bin/env" 2>/dev/null
-
-[ -f "$HOME/google-cloud-sdk/path.zsh.inc" ] && . "$HOME/google-cloud-sdk/path.zsh.inc"
-
-export EDITOR='nvim'
-export VISUAL='nvim'
-
-# Welcome banner disabled — uncomment to re-enable:
-# if [ -n "${SSH_CONNECTION:-}" ] && [ -x "$HOME/.local/bin/welcome" ]; then
-#   exec "$HOME/.local/bin/welcome"
-# fi
