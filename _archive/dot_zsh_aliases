@@ -1,0 +1,5 @@
+alias pc="gopass show -n -c"
+alias ps="gopass show -C"
+alias pa="gopass insert"
+alias pg="gopass genorate"
+
