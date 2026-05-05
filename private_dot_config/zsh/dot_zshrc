@@ -48,8 +48,14 @@ setopt INC_APPEND_HISTORY
 HISTSIZE=50000
 SAVEHIST=50000
 
+# Keep history out of config dir, in data dir instead
+HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/zsh/history"
+
 # ── Starship prompt ────────────────────────────────────────────────────────
 type starship &>/dev/null && eval "$(starship init zsh)"
+
+# ── Data dirs (not configs!) ───────────────────────────────────────────────
+ZSH_COMPDUMP="$HOME/.cache/zsh/zcompdump"
 
 # ── zoxide (smart cd) ──────────────────────────────────────────────────────
 type zoxide &>/dev/null && eval "$(zoxide init zsh)"
