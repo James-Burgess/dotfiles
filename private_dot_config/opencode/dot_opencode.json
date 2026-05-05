@@ -1,0 +1,14 @@
+{
+  "$schema": "./opencode-schema.json",
+  "permissions": {
+    "git": {
+      "push": false,
+      "force_push": false,
+      "push_force": false
+    }
+  },
+  "rules": [
+    "Never run git push, git push --force, or any push variant",
+    "Always ask for explicit human approval before any remote git operation"
+  ]
+}
