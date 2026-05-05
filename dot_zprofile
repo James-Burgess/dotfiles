@@ -1,0 +1,23 @@
+export GOPATH="$HOME/go"
+export CARGO_HOME="$HOME/.cargo"
+export NVM_DIR="$HOME/.nvm"
+export PYENV_ROOT="$HOME/.pyenv"
+export BUN_INSTALL="$HOME/.bun"
+
+export PATH="$HOME/bin:$HOME/.local/bin:$HOME/dev-setup/bin:$GOPATH/bin:$CARGO_HOME/bin:$BUN_INSTALL/bin:/usr/local/bin:$PATH"
+
+type node &>/dev/null && export PATH="$(dirname $(which node)):$PATH"
+[ -d "$PYENV_ROOT/bin" ] && export PATH="$PYENV_ROOT/bin:$PATH"
+
+. "$HOME/.cargo/env" 2>/dev/null
+. "$HOME/.atuin/bin/env" 2>/dev/null
+
+[ -f "$HOME/google-cloud-sdk/path.zsh.inc" ] && . "$HOME/google-cloud-sdk/path.zsh.inc"
+
+export EDITOR='nvim'
+export VISUAL='nvim'
+
+# Welcome banner disabled — uncomment to re-enable:
+# if [ -n "${SSH_CONNECTION:-}" ] && [ -x "$HOME/.local/bin/welcome" ]; then
+#   exec "$HOME/.local/bin/welcome"
+# fi

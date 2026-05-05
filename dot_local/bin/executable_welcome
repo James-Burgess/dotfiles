@@ -1,0 +1,90 @@
+#!/usr/bin/env bash
+set -uo pipefail
+
+trap '' INT TERM
+
+clear 2>/dev/null || printf '\033[2J\033[H'
+
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+
+if command -v figlet &>/dev/null; then
+  figlet -f block -c "JIMBOT" 2>/dev/null || \
+  figlet -f standard -c "JIMMY BEE" 2>/dev/null
+fi
+
+echo
+echo "      ██████╗ ███████╗ ██╗   ██╗    ██████╗  ██████╗ ██╗  ██╗"
+echo "      ██╔══██╗██╔════╝ ██║   ██║    ██╔══██╗██╔═══██╗╚██╗██╔╝"
+echo "      ██║  ██║█████╗   ██║   ██║    ██████╔╝██║   ██║ ╚███╔╝ "
+echo "      ██║  ██║██╔══╝   ╚██╗ ██╔╝    ██╔══██╗██║   ██║ ██╔██╗ "
+echo "      ██████╔╝███████╗  ╚████╔╝     ██████╔╝╚██████╔╝██╔╝ ██╗"
+echo "      ╚═════╝ ╚══════╝   ╚═══╝      ╚═════╝  ╚═════╝ ╚═╝  ╚═╝"
+echo
+echo
+
+if command -v fastfetch &>/dev/null; then
+  fastfetch --logo-position left --logo-padding-right 2 --logo-padding-left 2 2>/dev/null || true
+fi
+
+echo
+echo "         ────────────────────────────────────────────────────"
+echo
+
+if command -v gum &>/dev/null; then
+  choice=$(gum choose \
+    --cursor="" \
+    --selected="🚀 enter to work" \
+    "🚀 enter to work" \
+    "🔧 open a shell" \
+    "🔄 reboot" \
+    "🚪 exit" \
+    --header="$(echo '    Welcome home. What would you like to do?' | gum style --foreground 212 --border rounded --padding '0 1')" \
+  )
+else
+  echo "         [ Enter ] → launch sesh     [ s ] → shell     [ r ] →  reboot"
+  echo
+  read -r choice
+  case "$choice" in
+    r|R) sudo reboot ;;
+    s|S) exit 0 ;;
+    *) choice="enter to work" ;;
+  esac
+fi
+
+case "$choice" in
+  "🚀 enter to work"|"")
+    if command -v sesh &>/dev/null; then
+      exec sesh connect . 2>/dev/null || exec sesh list 2>/dev/null || exec tmux
+    else
+      exec tmux
+    fi
+    ;;
+  "🔧 open a shell")
+    exec zsh
+    ;;
+  "🔄 reboot")
+    echo
+    echo "    Rebooting..."
+    sudo reboot
+    ;;
+  "🚪 exit")
+    echo
+    echo "    Goodbye!"
+    exit 0
+    ;;
+  *)
+    exec sesh connect . 2>/dev/null || exec tmux
+    ;;
+esac

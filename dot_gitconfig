@@ -1,0 +1,39 @@
+[user]
+	email = mail@jimmyb.co.za
+	name = James-Burgess
+
+[core]
+	editor = nvim
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	side-by-side = true
+	line-numbers = true
+	syntax-theme = Monokai Extended
+
+[diff]
+	tool = delta
+	colorMoved = default
+
+[color]
+	ui = auto
+
+[merge]
+	conflictstyle = diff3
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+
+[alias]
+	lg = log --oneline --graph --all
+	st = status
+	co = checkout
+	br = branch
+	ci = commit

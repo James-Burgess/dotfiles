@@ -1,0 +1,96 @@
+format = """
+[](#9A348E)\
+$os\
+$username\
+[](bg:#DA627D fg:#9A348E)\
+$directory\
+[](fg:#DA627D bg:#FCA17D)\
+$git_branch\
+$git_status\
+[](fg:#FCA17D bg:#86BBD8)\
+$golang\
+$python\
+$rust\
+$docker_context\
+$kubernetes\
+[](fg:#86BBD8 bg:#06969A)\
+$aws\
+$gcloud\
+$azure\
+[](fg:#06969A bg:#33658A)\
+$fill\
+$cmd_duration\
+$time\
+[](fg:#33658A)\
+$line_break\
+$character\
+"""
+
+[os]
+disabled = false
+format = " [$symbol](bold white)"
+symbol = ""
+
+[username]
+show_always = true
+format = "[ $user]($style)"
+style_user = "white bold"
+style_root = "black bold"
+
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+style = "bold"
+format = "[ $path]($style)[$read_only]($read_only_style)"
+
+[git_branch]
+symbol = ""
+style = "bold"
+
+[git_status]
+style = "bold"
+
+[golang]
+symbol = ""
+format = "[ $symbol($version)]($style)"
+
+[python]
+symbol = ""
+format = "[ $symbol($version)]($style)"
+
+[rust]
+symbol = ""
+format = "[ $symbol($version)]($style)"
+
+[docker_context]
+symbol = ""
+format = "[ $symbol$context]($style)"
+only_with_files = true
+
+[kubernetes]
+symbol = ""
+disabled = false
+format = "[ $symbol$context](dimmed)"
+style = "dimmed"
+
+[aws]
+symbol = ""
+format = "[$symbol($profile)]($style)"
+
+[gcloud]
+symbol = ""
+format = "[$symbol$active](bold)"
+
+[azure]
+symbol = ""
+format = "[$symbol$subscription]($style)"
+
+[cmd_duration]
+format = "[ took $duration]($style)"
+style = "yellow"
+
+[time]
+disabled = false
+format = "[ $time]($style)"
+time_format = "%H:%M"
+style = "bold"

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+exec sesh picker -i --placeholder 'Pick a session...' --prompt '⚡'
