@@ -1,0 +1,188 @@
+{
+  "version": 3,
+  "skills": {
+    "cloudflare": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/cloudflare/SKILL.md",
+      "skillFolderHash": "451766442941fd2cffea9fa20559dafbcf0ef60e",
+      "installedAt": "2026-05-13T16:41:38.087Z",
+      "updatedAt": "2026-05-13T16:41:38.087Z"
+    },
+    "cloudflare-email-service": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/cloudflare-email-service/SKILL.md",
+      "skillFolderHash": "af7bd16246149247d4b699382d951dc376491bac",
+      "installedAt": "2026-05-13T16:41:38.088Z",
+      "updatedAt": "2026-05-13T16:41:38.088Z"
+    },
+    "durable-objects": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/durable-objects/SKILL.md",
+      "skillFolderHash": "72810f48414f2e68d0aa65a8895f749c959dea91",
+      "installedAt": "2026-05-13T16:41:38.088Z",
+      "updatedAt": "2026-05-13T16:41:38.088Z"
+    },
+    "web-perf": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/web-perf/SKILL.md",
+      "skillFolderHash": "e8e8c50ca6abf0849a4d9d69c1bed8b98b5d7411",
+      "installedAt": "2026-05-13T16:41:38.092Z",
+      "updatedAt": "2026-05-13T16:41:38.092Z"
+    },
+    "workers-best-practices": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/workers-best-practices/SKILL.md",
+      "skillFolderHash": "7dd384e79c76d3e388dfe53e12e93642679ff1fd",
+      "installedAt": "2026-05-13T16:41:38.093Z",
+      "updatedAt": "2026-05-13T16:41:38.093Z"
+    },
+    "wrangler": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/wrangler/SKILL.md",
+      "skillFolderHash": "45cc198b2aad3f06e8abf91333f55fbe7579f659",
+      "installedAt": "2026-05-13T16:41:38.093Z",
+      "updatedAt": "2026-05-13T16:41:38.093Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-05-13T16:41:52.525Z",
+      "updatedAt": "2026-05-13T16:41:52.525Z"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/webapp-testing/SKILL.md",
+      "skillFolderHash": "5ffb7dc66b9fd4c25c3e400a4c00da99a349b714",
+      "pluginName": "example-skills",
+      "installedAt": "2026-05-13T16:47:37.770Z",
+      "updatedAt": "2026-05-13T16:54:28.275Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "343db72180d05814949fef7d46be96b5c6ee86b3",
+      "installedAt": "2026-05-13T16:48:20.864Z",
+      "updatedAt": "2026-05-13T16:48:20.864Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "c1470a475a0472fceda2401ea6763708a91680a8",
+      "installedAt": "2026-05-13T16:48:54.614Z",
+      "updatedAt": "2026-05-13T16:48:54.614Z"
+    },
+    "brainstorming": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "skillFolderHash": "f260c775073816860fef8a37c032ac77e2ff5821",
+      "installedAt": "2026-05-13T16:49:26.561Z",
+      "updatedAt": "2026-05-13T16:49:26.561Z"
+    },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/shadcn/ui.git",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "skillFolderHash": "a8404703769866faf15bee897c9ae6e252ac2d35",
+      "installedAt": "2026-05-13T16:49:57.267Z",
+      "updatedAt": "2026-05-13T16:49:57.267Z"
+    },
+    "seo-audit": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/seo-audit/SKILL.md",
+      "skillFolderHash": "d333a589b3cd513296c419ee6911903be8c9865b",
+      "pluginName": "marketing-skills",
+      "installedAt": "2026-05-13T16:50:23.101Z",
+      "updatedAt": "2026-05-13T16:50:23.101Z"
+    },
+    "copywriting": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/copywriting/SKILL.md",
+      "skillFolderHash": "dec39a2d87a7cc4c7e50e4efee937a9df7d81a05",
+      "installedAt": "2026-05-13T16:51:17.050Z",
+      "updatedAt": "2026-05-18T17:22:45.856Z"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pbakaus/impeccable.git",
+      "skillPath": "skill/SKILL.md",
+      "skillFolderHash": "7624b6fb3785138283277124b746c8ed13fa4893",
+      "installedAt": "2026-05-13T16:51:43.146Z",
+      "updatedAt": "2026-05-13T16:51:43.146Z"
+    },
+    "copy-editing": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "skillPath": "skills/copy-editing/SKILL.md",
+      "skillFolderHash": "4d29a5bcbbf92f159f713c17db9d3d0bf6217b48",
+      "installedAt": "2026-05-18T17:22:27.944Z",
+      "updatedAt": "2026-05-18T17:22:27.944Z"
+    },
+    "stop-slop": {
+      "source": "hardikpandya/stop-slop",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hardikpandya/stop-slop.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "8da1f030185bdfe8471220585162991eaeb970e9",
+      "installedAt": "2026-05-18T17:23:30.250Z",
+      "updatedAt": "2026-05-18T17:23:30.250Z"
+    },
+    "ui-ux-pro-max": {
+      "source": "likaia/nginxpulse",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/likaia/nginxpulse.git",
+      "skillPath": ".codex/skills/ui-ux-pro-max/SKILL.md",
+      "skillFolderHash": "3aa77c7bb896deb5317f00f526d952f3e098c9aa",
+      "installedAt": "2026-05-28T11:16:18.011Z",
+      "updatedAt": "2026-05-28T11:16:18.011Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "dexto",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}
