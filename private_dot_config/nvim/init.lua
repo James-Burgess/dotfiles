@@ -55,7 +55,8 @@ local map = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
 -- Save and undo
-map({ 'n', 'i' }, '<C-s>', '<cmd>w<cr>', opts)
+map('n', '<C-s>', '<cmd>w<cr>', opts)
+map('i', '<C-s>', '<Esc><cmd>w<cr>', opts)
 map({ 'n', 'i' }, '<C-z>', '<cmd>u<cr>', opts)
 
 -- Better window navigation
