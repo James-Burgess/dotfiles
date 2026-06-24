@@ -8,29 +8,40 @@ zstyle ':omz:update' mode disabled
 
 plugins=(
   git
+  aliases
+  autojump
+  branch
+  command-not-found
   docker
   docker-compose
-  golang
-  pip
-  rust
-  aws
+  emoji
+  eza
+  fzf
   gcloud
+  golang
+  httpie
+  keychain
   kubectl
+  nvm
+  npm
+  otp
+  pip
+  python
+  rust
+  ssh-agent
+  sudo
   terraform
   helm
   tmux
-  nvm
-  npm
-  command-not-found
-  extract
-  ssh-agent
-  history
+  virtualenv
   z
-  autojump
   zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# powerlevel10k
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ] && . "$HOME/google-cloud-sdk/completion.zsh.inc"
 
