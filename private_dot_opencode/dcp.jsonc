@@ -1,0 +1,103 @@
+{
+  "compress": {
+    "mode": "range",
+    "protectUserMessages": false
+  },
+  "models": {
+    "claude-sonnet-4-20250514": {
+      "compress": {
+        "minContextLimit": 80000,
+        "maxContextLimit": 160000
+      }
+    },
+    "claude-opus-4-20250514": {
+      "compress": {
+        "minContextLimit": 80000,
+        "maxContextLimit": 160000
+      }
+    },
+    "claude-haiku-4-20250514": {
+      "compress": {
+        "minContextLimit": 40000,
+        "maxContextLimit": 120000
+      }
+    },
+    "gpt-4o": {
+      "compress": {
+        "minContextLimit": 40000,
+        "maxContextLimit": 100000
+      }
+    },
+    "gpt-4o-mini": {
+      "compress": {
+        "minContextLimit": 30000,
+        "maxContextLimit": 80000
+      }
+    },
+    "o1": {
+      "compress": {
+        "minContextLimit": 40000,
+        "maxContextLimit": 100000
+      }
+    },
+    "o3-mini": {
+      "compress": {
+        "minContextLimit": 30000,
+        "maxContextLimit": 80000
+      }
+    },
+    "gemini-2.5-pro": {
+      "compress": {
+        "minContextLimit": 80000,
+        "maxContextLimit": 600000
+      }
+    },
+    "gemini-2.5-flash": {
+      "compress": {
+        "minContextLimit": 50000,
+        "maxContextLimit": 600000
+      }
+    },
+    "deepseek/deepseek-v4-pro": {
+      "compress": {
+        "minContextLimit": 80000,
+        "maxContextLimit": 700000
+      }
+    },
+    "moonshotai/kimi-k2.6": {
+      "compress": {
+        "minContextLimit": 60000,
+        "maxContextLimit": 180000
+      }
+    },
+    "z-ai/glm-5.1": {
+      "compress": {
+        "minContextLimit": 60000,
+        "maxContextLimit": 140000
+      }
+    },
+    "deepseek-v4-pro:cloud": {
+      "compress": {
+        "minContextLimit": 80000,
+        "maxContextLimit": 700000
+      }
+    },
+    "kimi-k2.6:cloud": {
+      "compress": {
+        "minContextLimit": 60000,
+        "maxContextLimit": 180000
+      }
+    },
+    "glm-5.1:cloud": {
+      "compress": {
+        "minContextLimit": 60000,
+        "maxContextLimit": 140000
+      }
+    }
+  },
+  "strategies": {
+    "purgeErrors": {
+      "turns": 4
+    }
+  }
+}

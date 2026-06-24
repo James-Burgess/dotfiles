@@ -26,6 +26,8 @@ plugins=(
   ssh-agent
   history
   z
+  autojump
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -81,6 +83,8 @@ fi
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # ── Aliases ────────────────────────────────────────────────────────────────
+source "$HOME/.config/zsh/aliases.zsh"
+
 type batcat &>/dev/null && alias cat='batcat --paging=never'
 type eza &>/dev/null && alias ls='eza --icons --group-directories-first'
 type eza &>/dev/null && alias ll='eza -l --icons --git --header'
@@ -104,29 +108,8 @@ alias update='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
 # alert for long running commands; use like so: sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history | tail -n1 | sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-# docker
-alias d='docker'
-alias dc='docker compose'
-alias dps='docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"'
-
 # git
-alias g='git'
-alias gs='git status'
-alias gp='git push'
-alias gl='git pull'
-alias gd='git diff'
-alias gc='git commit'
-alias gca='git commit --amend'
-alias gco='git checkout'
-alias gb='git branch'
-alias gst='git stash'
 alias glog='git log --oneline --graph --all'
-
-# tmux
-alias t='tmux'
-alias ta='tmux attach -t'
-alias tn='tmux new -s'
-alias tl='tmux ls'
 
 # ── nvm lazy load ──────────────────────────────────────────────────────────
 if [ -s "$NVM_DIR/nvm.sh" ]; then
@@ -136,9 +119,9 @@ if [ -s "$NVM_DIR/nvm.sh" ]; then
 fi
 
 # ── pyenv ──────────────────────────────────────────────────────────────────
-if type pyenv &>/dev/null; then
-  eval "$(pyenv init - --no-rehash zsh)"
-fi
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
 
 # ── gpg agent ──────────────────────────────────────────────────────────────
 export GPG_TTY=$(tty)
