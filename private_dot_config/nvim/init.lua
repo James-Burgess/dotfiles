@@ -118,8 +118,9 @@ require('lazy').setup({
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons', 'SmiteshP/nvim-navic' },
     config = function()
+      local theme = require('catppuccin.utils.lualine')('mocha')
       require('lualine').setup({
-        options = { theme = 'catppuccin-mocha' },
+        options = { theme = theme },
         sections = {
           lualine_c = { 'filename', { 'navic', draw_empty = true } },
         },
