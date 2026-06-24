@@ -516,7 +516,7 @@ require('lazy').setup({
 
   {
     'ThePrimeagen/refactoring.nvim',
-    dependencies = { 'nvim-lua/plenary.nvim', 'nvim-treesitter/nvim-treesitter' },
+    dependencies = { 'nvim-lua/plenary.nvim', 'nvim-treesitter/nvim-treesitter', 'nvim-neotest/nvim-nio' },
     config = function()
       require('refactoring').setup({})
       map('x', '<leader>re', function()
